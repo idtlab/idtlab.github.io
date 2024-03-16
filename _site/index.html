@@ -97,7 +97,59 @@
     </div>
 </section>
 
-  <section id="research">
+  <html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 30px;
+}
+</style>
+</head>
+<body>
+
+<section id="research">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center" style="padding-bottom: 20px;">
@@ -108,62 +160,47 @@
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-evenly ">
-            <div class="col-md-3 text-center">
-                <div class="card mx-auto" style="width: 100%;">
-                    <img class="card-img-top" src="../img/pexels-panumas-nikhomkhai-17489153.jpg" alt="Card image cap" 
-                         style="width: 100%;
-                                height: 200px;
-                                border:solid 1px #000000" />
-                    <div class="card-body">
-                      <h3>Proactive Data Containers</h3>
-                      <p class="card-text">Proactive Data Containers explanation</p>
-                      <a href="#PDC" class="btn btn-primary btn-xl page-scroll">Learn More</a>
-                    </div>
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><strong>Novel Data Systems</strong></h4>
+                  <p class="card-text">Brief explanation regarding the research area</p>
+                  <a href="pdc" class="btn btn-primary" style="margin:5px;">PDC</a>
                 </div>
+              </div>
             </div>
-            <div class="col-md-3 text-center">
-                <div class="card mx-auto" style="width: 100%;">
-                    <img class="card-img-top" src="../img/pexels-panumas-nikhomkhai-17489153.jpg" alt="Card image cap" 
-                         style="width: 100%;
-                         height: 200px;
-                                border:solid 1px #000000" />
-                    <div class="card-body">
-                      <h3>Proactive Data Containers</h3>
-                      <p class="card-text">Proactive Data Containers explanation</p>
-                      <a href="#PDC" class="btn btn-primary btn-xl page-scroll">Learn More</a>
-                    </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><strong>Data Readiness and Quality</strong></h4>
+                  <p class="card-text">Brief explanation regarding the research area</p>
+                  <a href="aidrin" class="btn btn-primary" style="margin:5px;">AIDRIN</a>
+                  <a href="novel_data_systems" class="btn btn-primary" style="margin:5px;">APPFL</a>
                 </div>
+              </div>
             </div>
-            <div class="col-md-3 text-center">
-                <div class="card mx-auto" style="width: 100%;">
-                    <img class="card-img-top" src="../img/pexels-panumas-nikhomkhai-17489153.jpg" alt="Card image cap" 
-                         style="width: 100%;
-                         height: 200px;
-                                border:solid 1px #000000" />
-                    <div class="card-body">
-                      <h3>Proactive Data Containers</h3>
-                      <p class="card-text">Proactive Data Containers explanation</p>
-                      <a href="#PDC" class="btn btn-primary btn-xl page-scroll">Learn More</a>
-                    </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><strong>I/O Characterization Tuning</strong></h4>
+                  <p class="card-text">Brief explanation regarding the research area</p>
+                  <a href="novel_data_systems" class="btn btn-primary" style="margin:5px;">DRISHTI</a>
                 </div>
+              </div>
             </div>
-            <div class="col-md-3 text-center">
-                <div class="card mx-auto" style="width: 100%;">
-                    <img class="card-img-top" src="../img/pexels-panumas-nikhomkhai-17489153.jpg" alt="Card image cap" 
-                         style="width: 100%;
-                         height: 200px;
-                                border:solid 1px #000000" />
-                    <div class="card-body">
-                      <h3>Proactive Data Containers</h3>
-                      <p class="card-text">Proactive Data Containers explanation</p>
-                      <a href="#PDC" class="btn btn-primary btn-xl page-scroll">Learn More</a>
-                    </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><strong>Data Querying</strong></h4>
+                  <p class="card-text">Brief explanation regarding the research area</p>
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
     </div>
-    
 </section>
   <section class="bg-primary" id="publications">
     <div class="container">
@@ -178,8 +215,37 @@
     <div class="container">
         <div class="col-lg-12">
             <h3>2024</h3>
+            <ul>
+<li style="font-size=10px;">
+Runzhou Han, Mai Zheng, Suren Byna, Houjun Tang, Bin Dong, Dong Dai, Yong Chen, Dongkyun Kim, Joseph Hassoun, David Thorsley, and Matthew Wolf, "PROV-IO+: A Cross-Platform Provenance Framework for Scientific Data on HPC Systems", IEEE Transactions on Parallel and Distributed Systems (TPDS), 2024.
+</li>
+<li style="font-size=10px;">
+Jean Luca Bez, Houjun Tang, Scot Breitenfeld, Huihuo Zheng, Wei-keng Liao, Kaiyuan Hou, Zanhua Huang, and Suren Byna, "h5bench: Exploring HDF5 Access Patterns Performance in Pre-Exascale Platforms", Concurrency and Computation: Practice and Experience (CCPE), 2024.
+</li>
+<li style="font-size=10px;">
+Jean Luca Bez, Hammad Ather, Yankun Xia, and Suren Byna "Drilling Down I/O Bottlenecks with Cross-layer I/O Profile Exploration", IPDPS 2024.
+</li>
+<li style="font-size=10px;">
+Neeraj Rajesh, Keith Bateman, Suren Byna, Jean Luca Bez, Anthony Kougkas, and Xian-He Sun, "TunIO: An AI-powered Framework for Optimizing HPC I/O", IPDPS 2024.
+</li>
+<li style="font-size=10px;">
+Dong Kyu Sung, Yongseok Son, Alex Sim, John Wu, Suren Byna, Houjun Tang, Hyeonsang Eom, and Sunggon Kim, "A2FL: Autonomous and Adaptive File Layout in HPC through Real-time Access Pattern", IPDPS 2024.
+</li>
+<li style="font-size=10px;">
+Wei Zhang, Houjun Tang, and Suren Byna, "IDIOMS: Index-powered Distributed Object-centric Metadata Search for Scientific Data Management", CCGrid 2024.
+</li>
+<li style="font-size=10px;">
+Bin Dong, John Wu, and Suren Byna, "The Art of Sparsity: Mastering High-Dimensional Tensor Storage", ESSA 2024 in conjunction with IPDPS 2024.
+</li>
+</ul>
+
+            
         </div>
     </div>
+    <div class="text-center" style="padding-top: 5%;">
+        <a href="publications" class="btn btn-default">Learn more</a>
+    </div>
+    
 </section>
   <section id="people">
     <div class="container">
@@ -199,63 +265,104 @@
         <div class="col-lg-12" style="padding-bottom: 20px;">
             <h3>Current Members</h3>
         </div>
-
-        <div class="row justify-content-evenly ">
-            <div class="col-md-3 text-center">
-                <div class="card mx-auto" style="width: 30pem; border:solid 1px #000000">
-                    <img class="card-img-top" src="../img/pexels-pok-rie-982263.jpg" alt="Card image cap" 
-                         style="width: 100%;
-                                height: 200px;"/>
-                    <div class="card-body">
-                      <h3>Student Name</h3>
-                      <p class="card-text">Ph.D. Student</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card" style="min-height: 100;
+                    max-width: 20rem;
+                    margin: 5%;"">
+                        <img src="../img/pexels-pok-rie-982263.jpg" class="card-img-top" alt="Card image cap" 
+                              style="border-radius:50% ;
+                              width: 100px;
+                              height: 100px;"/>
+                        <div class="card-body">
+                          <h4 class="card-title"><strong>Student Name</strong></h4>
+                          <p class="card-text">Ph.D Student</p>
+                        </div>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Git</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="card mx-auto" style="width: 30pem; border:solid 1px #000000">
-                    <img class="card-img-top" src="../img/pexels-pok-rie-982263.jpg" alt="Card image cap" 
-                         style="width: 100%;
-                         height: 200px;"/>
-                    <div class="card-body">
-                      <h3>Student Name</h3>
-                      <p class="card-text">Ph.D. student</p>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card" style="min-height: 100;
+                    max-width: 20rem;
+                    margin: 5%;"">
+                        <img src="../img/pexels-pok-rie-982263.jpg" class="card-img-top" alt="Card image cap" 
+                              style="border-radius:50% ;
+                              width: 100px;
+                              height: 100px;"/>
+                        <div class="card-body">
+                          <h4 class="card-title"><strong>Student Name</strong></h4>
+                          <p class="card-text">Ph.D Student</p>
+                        </div>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Git</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="card mx-auto" style="width: 30pem; border:solid 1px #000000">
-                    <img class="card-img-top" src="../img/pexels-pok-rie-982263.jpg" alt="Card image cap" 
-                         style="width: 100%;
-                         height: 200px;"/>
-                    <div class="card-body">
-                      <h3>Student Name</h3>
-                      <p class="card-text">Ph.D. student</p>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card" style="min-height: 100;
+                    max-width: 20rem;
+                    margin: 5%;"">
+                        <img src="../img/pexels-pok-rie-982263.jpg" class="card-img-top" alt="Card image cap" 
+                              style="border-radius:50% ;
+                              width: 100px;
+                              height: 100px;"/>
+                        <div class="card-body">
+                          <h4 class="card-title"><strong>Student Name</strong></h4>
+                          <p class="card-text">Ph.D Student</p>
+                        </div>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Git</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="card mx-auto" style="width: 30pem; border:solid 1px #000000">
-                    <img class="card-img-top" src="../img/pexels-pok-rie-982263.jpg" alt="Card image cap" 
-                         style="width: 100%;
-                                height: 200px;" />
-                    <div class="card-body">
-                      <h3>Student Name</h3>
-                      <p class="card-text">Ph.D. student</p>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card" style="min-height: 100;
+                    max-width: 20rem;
+                    margin: 5%;"">
+                        <img src="../img/pexels-pok-rie-982263.jpg" class="card-img-top" alt="Card image cap" 
+                              style="border-radius:50% ;
+                              width: 100px;
+                              height: 100px;"/>
+                        <div class="card-body">
+                          <h4 class="card-title"><strong>Student Name</strong></h4>
+                          <p class="card-text">Ph.D Student</p>
+                        </div>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Git</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card" style="min-height: 100;
+                    max-width: 20rem;
+                    margin: 5%;"">
+                        <img src="../img/pexels-pok-rie-982263.jpg" class="card-img-top" alt="Card image cap" 
+                              style="border-radius:50% ;
+                              width: 100px;
+                              height: 100px;"/>
+                        <div class="card-body">
+                          <h4 class="card-title"><strong>Student Name</strong></h4>
+                          <p class="card-text">Ph.D Student</p>
+                        </div>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Git</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
-  <section id="contact">
+  <section class="bg-primary" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">IDT Lab Information</h2>
-                <hr class="primary">
+                <hr class="light">
             </div>
         </div>
     </div>
