@@ -1,0 +1,13 @@
+.innerContainer {
+  background-color: var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-global-radius);
+  height: 100%;
+}
+
+.image {
+  border-radius: 99rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: top;
+  width: 10rem;
+}

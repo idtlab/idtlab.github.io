@@ -1,0 +1,59 @@
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  /* margin-top: 16px; */
+  margin-bottom: 16px;
+  justify-content: flex-start;
+}
+
+.twoColumns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.singleColumn {
+  flex-direction: row;
+}
+
+.linkItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  /* transition: all 0.2s ease; */
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.linkItem:hover {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  /* transform: translateY(-2px); */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+/* Remove the linkText style since we're not showing it anymore */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .twoColumns {
+    justify-content: center;
+  }
+  
+  .linkItem {
+    width: 36px;
+    height: 36px;
+  }
+}

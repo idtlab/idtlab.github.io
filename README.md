@@ -1,14 +1,27 @@
-# Creative Theme for Jekyll
+# Innovative Data Technologies (IDT) Lab Website
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
+### Installation
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
+```
+$ npm install
+```
 
-## To use the Creative Theme template in your project
+### Local Development
 
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
+```
+$ npm run start
+```
 
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ npm run build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+<!-- https://www.svgrepo.com/collection/big-data-and-web-analytics-3 -->
