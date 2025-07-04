@@ -1,8 +1,0 @@
-.card {
-  /* border-radius: var(--ifm-global-radius); */
-  box-shadow: none;
-}
-
-.cardDarker {
-  background-color: var(--ifm-color-emphasis-200);
-}
