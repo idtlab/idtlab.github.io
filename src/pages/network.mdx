@@ -1,0 +1,28 @@
+---
+title: Network
+---
+
+import AffiliationList from "@site/src/components/affiliations/AffiliationList";
+import affiliations from "@site/src/data/affiliations";
+
+# Network
+
+We work with several Research Labs, Universities and Industry Leaders across the USA and around the world.
+
+Including:
+
+## National Labs and Research Centers
+
+<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "laboratory")} />
+
+## Universities
+
+<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "university")} />
+
+## Companies
+
+<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "company")} />
+
+## Funding Partners
+
+<AffiliationList data={affiliations.filter((affiliation) => affiliation.type === "funding")} />

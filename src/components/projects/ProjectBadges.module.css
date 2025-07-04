@@ -1,0 +1,4 @@
+.badgeDarker {
+  background-color: var(--ifm-color-secondary-darker);
+  border-color: var(--ifm-color-secondary-darker);
+}

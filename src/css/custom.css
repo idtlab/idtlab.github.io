@@ -1,0 +1,129 @@
+/**
+ * Global styles & theme customization for a steel blue + scarlet hover palette.
+ */
+
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+ /* ====== Light Mode Theme Colors ====== */
+ :root {
+   /* Primary: Muted Steel Blue */
+   --ifm-color-primary: #4a90e2;
+   --ifm-color-primary-dark: #3a78c2;
+   --ifm-color-primary-darker: #2f639e;
+   --ifm-color-primary-darkest: #244f7a;
+   --ifm-color-primary-light: #6aaef4;
+   --ifm-color-primary-lighter: #a7cdf8;
+   --ifm-color-primary-lightest: #d3e9ff;
+ 
+   /* Accent: Cool Mint */
+   --ifm-color-accent: #5bc0be;
+ 
+   /* Global font and code */
+   --ifm-code-font-size: 95%;
+   --ifm-font-family-base: Inter, system-ui, -apple-system, "Segoe UI", Roboto;
+ 
+   /* Link hover color override */
+   --ifm-link-color: var(--ifm-color-primary);
+   --ifm-link-hover-color: #ff2400; /* Scarlet */
+ 
+   /* Highlight background */
+   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.04);
+ }
+ 
+ /* ====== Dark Mode Theme Colors ====== */
+ [data-theme="dark"] {
+   --ifm-color-primary: #5dade2;
+   --ifm-color-primary-dark: #4290c9;
+   --ifm-color-primary-darker: #2f76aa;
+   --ifm-color-primary-darkest: #1c5c8b;
+   --ifm-color-primary-light: #85c1f2;
+   --ifm-color-primary-lighter: #b9dcfa;
+   --ifm-color-primary-lightest: #e6f3fe;
+ 
+   --ifm-color-accent: #7ed6c1;
+ 
+   --ifm-link-color: var(--ifm-color-primary);
+   --ifm-link-hover-color: #ff2400; /* Scarlet for dark mode */
+ 
+   --ifm-font-family-base: Inter, system-ui, -apple-system, "Segoe UI", Roboto;
+   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
+ }
+ 
+ /* ====== Typography & Layout Adjustments ====== */
+ .mdx-page p {
+   text-align: justify;
+ }
+ 
+ .docs-doc-page a p,
+ .docs-doc-page li p,
+ .mdx-page a p,
+ .mdx-page li p {
+   margin-bottom: 0;
+   margin-top: 0;
+ }
+ 
+ .mdx-page center p {
+   text-align: center;
+ }
+ 
+ /* ====== News Table Customizations ====== */
+ .newsTableWrapper thead {
+   display: none;
+ }
+ 
+ .newsTableWrapper table,
+ .newsTableWrapper th,
+ .newsTableWrapper td {
+   border-left: none;
+   border-right: none;
+ }
+ 
+ .newsTableWrapper td:nth-child(1) {
+   text-align: center;
+   width: 42px;
+ }
+ 
+ .newsTableWrapper td:nth-child(1) svg path {
+   fill: var(--ifm-color-primary);
+ }
+ 
+ .newsTableWrapper td:nth-child(2) {
+   width: 160px;
+ }
+ 
+ .newsTableWrapper td p:last-child {
+   margin-bottom: 0;
+ }
+ 
+ /* ====== Footer Styling ====== */
+ .footer {
+   background-color: var(--ifm-color-primary-dark);
+   padding: 20px;
+   text-align: center;
+   color: white;
+ }
+ 
+ .footer a {
+   color: #ffffff;
+   text-decoration: underline;
+   transition: color 0.3s ease;
+ }
+ 
+ .footer a:hover {
+   color: #77cb6f !important;
+ }
+ 
+ .footer p {
+   margin-bottom: 0.5rem;
+   text-align: center;
+ }
+ 
+ /* ====== Navbar Hover Color Customization ====== */
+.navbar__link {
+  transition: color 0.3s ease;
+}
+
+.navbar__link:hover,
+.navbar__link--active:hover {
+  color: #77cb6f !important; /* Scarlet */
+}

@@ -1,0 +1,10 @@
+.tag {
+  --ifm-badge-border-color: var(--ifm-table-border-color);
+  color: var(--ifm-table-cell-color);
+  display: inline;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: fit-content;
+  white-space: nowrap;
+}
