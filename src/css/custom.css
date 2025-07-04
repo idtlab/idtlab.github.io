@@ -1,47 +1,55 @@
 /**
- * Global styles & theme customization for a green-blue palette.
+ * Global styles & theme customization for a steel blue + scarlet hover palette.
  */
 
  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
  /* ====== Light Mode Theme Colors ====== */
  :root {
-   /* Blue primary */
-   --ifm-color-primary: #0077b6; /* Deep blue */
-   --ifm-color-primary-dark: #005f87;
-   --ifm-color-primary-darker: #004d70;
-   --ifm-color-primary-darkest: #003f5c;
-   --ifm-color-primary-light: #339dd9;
-   --ifm-color-primary-lighter: #66bde5;
-   --ifm-color-primary-lightest: #a3dbf4;
+   /* Primary: Muted Steel Blue */
+   --ifm-color-primary: #4a90e2;
+   --ifm-color-primary-dark: #3a78c2;
+   --ifm-color-primary-darker: #2f639e;
+   --ifm-color-primary-darkest: #244f7a;
+   --ifm-color-primary-light: #6aaef4;
+   --ifm-color-primary-lighter: #a7cdf8;
+   --ifm-color-primary-lightest: #d3e9ff;
  
-   /* Optional green accent (custom variable, use as needed) */
-   --ifm-color-accent: #52b788;
+   /* Accent: Cool Mint */
+   --ifm-color-accent: #5bc0be;
  
+   /* Global font and code */
    --ifm-code-font-size: 95%;
    --ifm-font-family-base: Inter, system-ui, -apple-system, "Segoe UI", Roboto;
  
-   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+   /* Link hover color override */
+   --ifm-link-color: var(--ifm-color-primary);
+   --ifm-link-hover-color: #ff2400; /* Scarlet */
+ 
+   /* Highlight background */
+   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.04);
  }
  
  /* ====== Dark Mode Theme Colors ====== */
  [data-theme="dark"] {
-   --ifm-color-primary: #00b4d8; /* Bright aqua blue */
-   --ifm-color-primary-dark: #0096c7;
-   --ifm-color-primary-darker: #0077b6;
-   --ifm-color-primary-darkest: #023e8a;
-   --ifm-color-primary-light: #48cae4;
-   --ifm-color-primary-lighter: #90e0ef;
-   --ifm-color-primary-lightest: #caf0f8;
+   --ifm-color-primary: #5dade2;
+   --ifm-color-primary-dark: #4290c9;
+   --ifm-color-primary-darker: #2f76aa;
+   --ifm-color-primary-darkest: #1c5c8b;
+   --ifm-color-primary-light: #85c1f2;
+   --ifm-color-primary-lighter: #b9dcfa;
+   --ifm-color-primary-lightest: #e6f3fe;
  
-   --ifm-color-accent: #80ed99; /* Light green accent */
+   --ifm-color-accent: #7ed6c1;
+ 
+   --ifm-link-color: var(--ifm-color-primary);
+   --ifm-link-hover-color: #ff2400; /* Scarlet for dark mode */
  
    --ifm-font-family-base: Inter, system-ui, -apple-system, "Segoe UI", Roboto;
    --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
  }
  
  /* ====== Typography & Layout Adjustments ====== */
- 
  .mdx-page p {
    text-align: justify;
  }
@@ -59,7 +67,6 @@
  }
  
  /* ====== News Table Customizations ====== */
- 
  .newsTableWrapper thead {
    display: none;
  }
@@ -87,25 +94,36 @@
  .newsTableWrapper td p:last-child {
    margin-bottom: 0;
  }
-
+ 
+ /* ====== Footer Styling ====== */
  .footer {
-  background-color: var(--ifm-color-primary-dark);
-  padding: 20px;
-  text-align: center;
-  color: white; 
+   background-color: var(--ifm-color-primary-dark);
+   padding: 20px;
+   text-align: center;
+   color: white;
+ }
+ 
+ .footer a {
+   color: #ffffff;
+   text-decoration: underline;
+   transition: color 0.3s ease;
+ }
+ 
+ .footer a:hover {
+   color: #77cb6f !important;
+ }
+ 
+ .footer p {
+   margin-bottom: 0.5rem;
+   text-align: center;
+ }
+ 
+ /* ====== Navbar Hover Color Customization ====== */
+.navbar__link {
+  transition: color 0.3s ease;
 }
 
-.footer a {
-  color: #ffffff; 
-  text-decoration: underline;
+.navbar__link:hover,
+.navbar__link--active:hover {
+  color: #77cb6f !important; /* Scarlet */
 }
-
-.footer a:hover {
-  color: #ffcccb; 
-}
-
-.footer p {
-  margin-bottom: 0.5rem;
-  text-align: center; 
-}
-

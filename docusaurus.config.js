@@ -176,9 +176,29 @@ const config = {
           //   position: "right",
           // },
           
+          
+          {
+            label: "Software",
+            position: "right",
+            items: [
+              {
+                label: "PDC",
+                href: "https://github.com/hpc-io/pdc",
+              },
+              {
+                label: "h5bench",
+                href: "https://github.com/hpc-io/h5bench",
+              },
+              {
+                label: "Drishti",
+                href: "https://github.com/hpc-io/drishti",
+              },
+            ]
+            
+          },
           {
             label: "GitHub",
-            positiion: "right",
+            position: "right",
             items: [
               {
                 label: "IDT GitHub",
@@ -191,7 +211,8 @@ const config = {
                 
               },
             ],
-          }
+          },
+
           
         ],
       },
@@ -246,7 +267,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ${IDT_TITLE} at OSU.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ${IDT_TITLE}`,
       },
       
       prism: {
