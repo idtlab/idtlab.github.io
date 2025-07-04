@@ -65,7 +65,7 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: "G-9SXDPLSLB2",
+          trackingID: "",
         },
       }),
     ],
@@ -82,7 +82,7 @@ const config = {
         {
           name: "description",
           content:
-            "Discover our research center's work in HPC memory and storage systems, emphasizing scalable software, data management, and data-centric system development.",
+            "At Innovative Data Technologies (IDT) Lab, we conduct research in all aspects of data management for science, including storage and I/O, file systems, metadata management, data quality assessment and improvement, performance analysis, performance tuning, data security, and energy-efficiency. Our emphasis is on developing systems and tools that make managing scientific data efficient and easy for scientists using high-performance computing (HPC), cloud, and edge computing systems.",
         },
         {
           name: "keywords",
@@ -98,6 +98,18 @@ const config = {
             "computational research",
             "innovative technology",
             "scientific research",
+            "data readiness for ai",
+            "security in data management",
+            "metadata management",
+            "data quality assessment",
+            "performance analysis",
+            "performance tuning",
+            "data security",
+            "energy efficiency",
+            "data management for science",
+            "data management for high-performance computing",
+            "data management for cloud computing",
+
           ].join(", "),
         },
       ],
