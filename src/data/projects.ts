@@ -75,7 +75,7 @@ const projects: Project[] = [
   {
     id: "fadas",
     name: "FADAS",
-    title: "FADAS: A Full-stack Approach to Declarative Analytics at Scale",
+    title: "A Full-stack Approach to Declarative Analytics at Scale",
     shortDescription:
     "The project investigates full-stack implementation methodologies for expressive programming systems that effectively bridge the gap between human-level specification and high-performance implementation of complex reasoning tasks at scale.",
     link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2316158",
