@@ -39,7 +39,7 @@ export default function ProjectItem({
         </div>
         <div className="card__footer">
           <Link className="button button--primary button--block" href={link}>
-            Learn more about {name}
+            {name ? `Learn more about ${name}` : "Learn more"}
           </Link>
         </div>
       </div>
