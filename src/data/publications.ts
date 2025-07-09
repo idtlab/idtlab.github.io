@@ -107,7 +107,7 @@ const publications: Publication[] = [
   "type": "Workshop",
   "date": "2024",
   "tags": [],
-  "links": {"preprint": "[Preprint PDF]"}
+  "links": {}
 },
 {
   "authors": [
@@ -119,6 +119,19 @@ const publications: Publication[] = [
   "date": "2024",
   "tags": ["I/O", "Persistent Memory"],
   "links": {}
+},
+{
+  "authors": [
+    "N. Lewis", "K. Velusamy", "K. Harms", "H. Zheng"
+  ],
+  "title": "Copper: Cooperative Caching Layer for Scalable Data Loading in Exascale Supercomputers",
+  "venue": "SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+  "type": "Workshop",
+  "date": "2024",
+  "tags": [],
+  "links": {
+    "doi": "https://ieeexplore.ieee.org/document/10820663"
+  }
 },
 {
   authors: [

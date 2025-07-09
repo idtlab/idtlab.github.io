@@ -419,6 +419,7 @@ export type PublicationAuthor =
   |"Z. Fang"
   |"D. Holmgren"
   |"R. Nakhoul"
+  |"K. Velusamy"
   ;
 
 export type PublicationTag =
