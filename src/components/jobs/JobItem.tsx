@@ -23,6 +23,7 @@ export default function JobItem({
 }: Job) {
   const isOpen = status === "open";
   const isDetailLinkExternal = detailLink?.startsWith("http");
+
   return (
     <div className={clsx("margin-bottom--md padding--md", styles.container)}>
       <div className={styles.contentContainer}>
@@ -55,12 +56,14 @@ export default function JobItem({
         </div>
         <div className="margin-bottom--md">{shortDescription}</div>
         <div className={styles.buttonContainer}>
-          <Link
-            className={clsx("button button--primary", !isOpen && "disabled")}
-            href={applicationLink}
-          >
-            {isOpen ? "Apply" : "Closed"}
-          </Link>
+          {applicationLink && (
+            <Link
+              className={clsx("button button--primary", !isOpen && "disabled")}
+              href={applicationLink}
+            >
+              {isOpen ? "Apply" : "Closed"}
+            </Link>
+          )}
           {detailLink && (
             <Link
               className="button button--link"
