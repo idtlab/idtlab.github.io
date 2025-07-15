@@ -1,6 +1,72 @@
 import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
+  
+  {
+    authors: [
+      "N. Lewis",
+      "S. Byna"
+      
+    ],
+    title:
+      "Efficient Data Movement and Computation via In-Flight Analysis",
+    venue:
+      "International Conference on Scalable Scientific Data Management 2025 (SSDBM 2025)",
+    type: "Poster",
+    date: "June, 2025",
+    tags: [],
+    links: {
+      poster: "https://sbyna.github.io/research/papers/2025/202507-SSDBM-InFlight-poster.pdf",
+      
+    }
+  },
+  
+  
+  {
+    authors: [
+      "K. Hiniduma",
+      "D. Ryan",
+      "S. Byna",
+      "J. L. Bez",
+      "R. Madduri"
+    ],
+    title:
+      "AIDRIN 2.0: A Framework to Assess Data Readiness for AI",
+    venue:
+      "International Conference on Scalable Scientific Data Management 2025 (SSDBM 2025)",
+    type: "Poster",
+    date: "June, 2025",
+    tags: ['AIDRIN', 'DRAI'],
+    links: {
+      poster: "https://sbyna.github.io/research/papers/2025/202507-SSDBM-AIDRIN-poster.pdf",
+      pdf: "https://arxiv.org/pdf/2505.18213"
+    }
+  },
+
+  {
+    authors: [
+      "C. Egersdoerfer",
+      "D. Dai",
+      "A. Sareen",
+      "J. L. Bez",
+      "S. Byna",
+      "D. Xu"
+      
+    ],
+    title:
+      "Augmenting LLMs for HPC I/O Performance Diagnosis",
+    venue:
+      "International Conference on Scalable Scientific Data Management 2025 (SSDBM 2025)",
+    type: "Poster",
+    date: "June, 2025",
+    tags: [],
+    links: {
+      poster: "https://sbyna.github.io/research/papers/2025/202507-SSDBM-ION2-poster.pdf",
+      
+    }
+  },
+  
+  
   {
     authors: [
       "N. Lewis",
