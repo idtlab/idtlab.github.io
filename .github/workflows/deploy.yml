@@ -20,6 +20,10 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+      
+      - name: Configure git remote with PAT
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/<owner>/<repo>.git
 
       - name: Deploy with Docusaurus
         env:
