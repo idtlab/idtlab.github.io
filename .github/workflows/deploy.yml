@@ -35,4 +35,6 @@ jobs:
           GIT_USER: idtlab
           DEPLOYMENT_BRANCH: gh-pages
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GIT_DEPLOY_REPO: https://x-access-token:${{ secrets.GH_PAT }}@github.com/idtlab/idtlab.github.io.git
+
         run: npm run deploy
