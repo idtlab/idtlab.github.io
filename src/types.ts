@@ -420,6 +420,7 @@ export type PublicationAuthor =
   |"D. Holmgren"
   |"R. Nakhoul"
   |"K. Velusamy"
+  |"J. Doe"
   ;
 
 export type PublicationTag =
