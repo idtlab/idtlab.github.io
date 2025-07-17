@@ -21,20 +21,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Set Git user for commit
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Build Docusaurus site
+        run: npm run build
 
-      - name: Configure git remote with PAT
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/idtlab/idtlab.github.io.git
-
-      - name: Deploy with Docusaurus
-        env:
-          GIT_USER: idtlab
-          DEPLOYMENT_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          GIT_DEPLOY_REPO: https://x-access-token:${{ secrets.GH_PAT }}@github.com/idtlab/idtlab.github.io.git
-
-        run: npm run deploy
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          publish_dir: ./build
+          publish_branch: gh-pages
