@@ -23,7 +23,7 @@ jobs:
       
       - name: Configure git remote with PAT
         run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/<owner>/<repo>.git
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/idtlab/idtlab.github.io.git
 
       - name: Deploy with Docusaurus
         env:
