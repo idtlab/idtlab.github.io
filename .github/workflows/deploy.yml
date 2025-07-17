@@ -20,7 +20,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-      
+
+      - name: Set Git user for commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Configure git remote with PAT
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/idtlab/idtlab.github.io.git
