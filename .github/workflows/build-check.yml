@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   build-check:
     runs-on: ubuntu-latest
@@ -23,4 +26,3 @@ jobs:
 
       - name: Run Docusaurus build
         run: npm run build
-
