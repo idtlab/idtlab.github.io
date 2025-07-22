@@ -159,11 +159,6 @@ const config = {
             ],
           },
           {
-            to: "/news",
-            label: "News",
-            position: "left",
-          },
-          {
             to: "/publications",
             label: "Publications",
             position: "left",
@@ -171,6 +166,11 @@ const config = {
           {
             to: "/opportunities",
             label: "Opportunities",
+            position: "left",
+          },
+          {
+            to: "/news",
+            label: "News",
             position: "left",
           },
           // {

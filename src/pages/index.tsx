@@ -28,13 +28,13 @@ function HomepageHeader() {
             Projects
           </Link>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg margin-right--md"
             to="/publications"
           >
             Publications
           </Link>
           <Link
-            className="button button--secondary button--lg margin-right--md"
+            className="button button--secondary button--lg"
             to="/news"
           >
             News
