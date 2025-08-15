@@ -100,7 +100,7 @@ const projects: Project[] = [
   },
   {
     id:"fastensor",
-    name: "Fastensor",
+    name: "FasTensor",
     title: "Fastensor: Big Data Analytics on Arrays",
     shortDescription:
       "FasTensor, formerly known as ArrayUDF, is a generic parallel programming model for big data analyses with any user-defined functions (UDF). These functions may express data analysis operations from traditional database (DB) systems to advanced machine learning pipelines.",

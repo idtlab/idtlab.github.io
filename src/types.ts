@@ -65,6 +65,7 @@ export type Project = {
 };
 
 export type PublicationAuthor =
+  |"Suren Byna"
   |"S. Byna"
   |"A. Salimiparsa"
   |"A. Talukdar"
