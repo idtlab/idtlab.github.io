@@ -4,11 +4,11 @@ const publications: Publication[] = [
   
   {
   "authors":[
-    "Kaveen Hiniduma",
-    "Zilinghan Li",
-    "Aditya Sinha",
-    "Ravi Madduri",
-    "Suren Byna"
+    "K. Hiniduma",
+    "Z. Li",
+    "A. Sinha",
+    "R. Madduri",
+    "S. Byna"
   ],
   "title": "CADRE: Customizable Assurance of Data Readiness in Privacy-Preserving Federated Learning",
   "venue": "IEEE e-Science 2025",
