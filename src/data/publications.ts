@@ -3,6 +3,23 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 const publications: Publication[] = [
   
   {
+  "authors":[
+    "Kaveen Hiniduma",
+    "Zilinghan Li",
+    "Aditya Sinha",
+    "Ravi Madduri",
+    "Suren Byna"
+  ],
+  "title": "CADRE: Customizable Assurance of Data Readiness in Privacy-Preserving Federated Learning",
+  "venue": "IEEE e-Science 2025",
+  "type": "Conference",
+  "date": "2025",
+  "tags": [
+    "AIDRIN", "DRAI", "Data Readiness", "Federated Learning",
+  ],
+  "links": {"pdf": "https://arxiv.org/pdf/2505.23849"}
+},
+{
     authors: [
       "N. Lewis",
       "S. Byna"
@@ -318,23 +335,6 @@ const publications: Publication[] = [
   "date": "2024",
   "tags": ["Tensor", "Storage", ],
   "links": {"preprint": "https://sbyna.github.io/research/papers/2024/202405-ESSA-art-of-sparsity.pdf"}
-},
-{
-  "authors":[
-    "K. Hiniduma",
-    "Z. Li",
-    "A. Sinha",
-    "R. Madduri",
-    "S. Byna"
-  ],
-  "title": "CADRE: Customizable Assurance of Data Readiness in Privacy-Preserving Federated Learning",
-  "venue": "IEEE e-Science 2025",
-  "type": "Conference",
-  "date": "2025",
-  "tags": [
-    "AIDRIN", "DRAI", "Federated Learning",
-  ],
-  "links": {"pdf": "https://arxiv.org/pdf/2505.23849"}
 },
 {
   authors: [
