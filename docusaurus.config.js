@@ -131,6 +131,10 @@ const config = {
                 label: "Members",
               },
               {
+                to: "/resources",
+                label: "Lab Resources",
+              },
+              {
                 to: "/network",
                 label: "Network",
               },
@@ -138,10 +142,7 @@ const config = {
                 to: "/contact",
                 label: "Contact",
               },
-              {
-                to: "/resources",
-                label: "Lab Resources",
-              },
+              
             ],
           },
           {

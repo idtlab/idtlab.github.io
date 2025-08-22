@@ -14,7 +14,7 @@ We’ll continue to add materials here related to research practices and the sup
 
 ## Research Methods
 
-- [CS Research Approach (PDF)](/resources/202304-Byna-Research-Approach.pdf)  
+- [CS Research Approach (PDF)](./resources/202304-Byna-Research-Approach.pdf)  
   A presentation outlining strategies and approaches for conducting research in computer science.
 
 ---
