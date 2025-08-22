@@ -131,16 +131,16 @@ const config = {
                 label: "Members",
               },
               {
-                to: "/resources",
-                label: "Lab Resources",
-              },
-              {
                 to: "/network",
                 label: "Network",
               },
               {
                 to: "/contact",
                 label: "Contact",
+              },
+              {
+                to: "/resources",
+                label: "Lab Resources",
               },
               
             ],
