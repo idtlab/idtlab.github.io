@@ -138,6 +138,11 @@ const config = {
                 to: "/contact",
                 label: "Contact",
               },
+              {
+                to: "/resources",
+                label: "Lab Resources",
+              },
+              
             ],
           },
           {
