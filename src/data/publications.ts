@@ -1,7 +1,24 @@
 import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
-  
+  {
+  "authors":[
+    "K. Hiniduma",
+    "J. L. Bez",
+    "R. Madduri",
+    "S. Byna"
+  ],
+  "title": "AIDRIN: A Comprehensive Toolset for AUtomating Data Preparation for AI",
+  "venue": "SC25",
+  "type": "Poster",
+  "date": "2025",
+  "tags": [
+    "AIDRIN", "DRAI",
+  ],
+  "links": {"pdf": "https://kaveenh.github.io/static/posters/AIDRIN_SC25_summary.pdf",
+            "poster": "https://buckeyemailosu-my.sharepoint.com/personal/hiniduma_1_buckeyemail_osu_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fhiniduma%5F1%5Fbuckeyemail%5Fosu%5Fedu%2FDocuments%2FDocuments%2FResearch%2Fdata%20quality%2Fsc25%20eposter%2Fvideo%2Faidrin%5Ffinal%5Fv1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea52fcc41%2D9a81%2D4729%2D92f4%2D54f20306eaba"
+  }
+},
   {
   "authors":[
     "K. Hiniduma",
@@ -15,7 +32,7 @@ const publications: Publication[] = [
   "type": "Conference",
   "date": "2025",
   "tags": [
-    "AIDRIN", "DRAI", "Data Readiness", "Federated Learning",
+    "AIDRIN", "DRAI", "Federated Learning",
   ],
   "links": {"pdf": "https://arxiv.org/pdf/2505.23849"}
 },

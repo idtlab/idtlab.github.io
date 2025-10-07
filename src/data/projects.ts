@@ -12,7 +12,7 @@ const projects: Project[] = [
     isFeatured: true,
     isOurs: true,
     researchStatus: "r&d",
-    // sourceLink: "https://github.com/idtlab/aidrin",
+    sourceLink: "https://github.com/idtlab/aidrin",
     status: "active",
     type: "funded",
   },
