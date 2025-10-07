@@ -85,6 +85,16 @@ type: "researcher",
   type: "researcher",
 },
 {
+  name: "Olivia Maynard",
+  title: "Master's Student",
+  advisor: "Prof. Suren Byna",
+  image: require("@site/static/img/members/maynard.jpg").default,
+  links: {
+    email: "maynard.341@osu.edu",
+  },
+  type: "researcher",
+},
+{
   name: "Dylan Ryan",
   title: "Undergraduate Student",
   advisor: "Prof. Suren Byna",
