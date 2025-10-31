@@ -48,7 +48,7 @@ const publications: Publication[] = [
       "International Conference on Scalable Scientific Data Management 2025 (SSDBM 2025)",
     type: "Poster",
     date: "June, 2025",
-    tags: [],
+    tags: ["PDC"],
     links: {
       poster: "https://sbyna.github.io/research/papers/2025/202507-SSDBM-InFlight-poster.pdf",
       
@@ -93,7 +93,7 @@ const publications: Publication[] = [
       "International Conference on Scalable Scientific Data Management 2025 (SSDBM 2025)",
     type: "Poster",
     date: "June, 2025",
-    tags: [],
+    tags: ["PDC"],
     links: {
       poster: "https://sbyna.github.io/research/papers/2025/202507-SSDBM-ION2-poster.pdf",
       
@@ -113,7 +113,7 @@ const publications: Publication[] = [
       "ACM Comput. Surv. 57, 10, Article 256, 42 pages",
     type: "Journal",
     date: "May, 2025",
-    tags: [],
+    tags: ["PDC"],
     links: {doi: "https://doi.org/10.1145/3722215"},
   },
   {
@@ -151,7 +151,7 @@ const publications: Publication[] = [
   type: "Conference",
   date: "June 2025",
   tags: [
-    
+   "PDC" 
   ],
   links: {paper: "https://drive.google.com/file/d/1UBqxqErz3mc0Cgvte-aBHDS7U4B5iMMw/view"}
  },
@@ -206,7 +206,7 @@ const publications: Publication[] = [
   "venue": "2024 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops)",
   "type": "Workshop",
   "date": "2024",
-  "tags": [],
+  "tags": ["PDC"],
   "links": {}
 },
 {
@@ -262,7 +262,7 @@ const publications: Publication[] = [
   "venue": "IEEE Transactions on Parallel and Distributed Systems (TPDS)",
   "type": "Journal",
   "date": "2024",
-  "tags": ["HPC"],
+  "tags": ["HPC", "PDC", "Provenance"],
   "links": {}
 },
 {
@@ -297,7 +297,7 @@ const publications: Publication[] = [
   "venue": "IPDPS 2024",
   "type": "Conference",
   "date": "2024",
-  "tags": ["HPC", "I/O Optimization"],
+  "tags": ["HPC", "I/O Optimization", "PDC"],
   "links": {}
 },
 {
@@ -315,7 +315,7 @@ const publications: Publication[] = [
   type: "Conference",
   date: "2024",
   tags: [
-  
+  "PDC"
   ],
   links: {doi: "https://doi.org/10.1109/BigData62323.2024.10825819"},
 },
@@ -328,7 +328,7 @@ const publications: Publication[] = [
   "venue": "IPDPS 2024",
   "type": "Conference",
   "date": "2024",
-  "tags": ["HPC"],
+  "tags": ["HPC", "PDC"],
   "links": {}
 },
 {
@@ -339,7 +339,7 @@ const publications: Publication[] = [
   "venue": "CCGrid 2024",
   "type": "Conference",
   "date": "2024",
-  "tags": ["Metadata Management"],
+  "tags": ["Metadata Management", "PDC"],
   "links": {}
 },
 {
@@ -350,7 +350,7 @@ const publications: Publication[] = [
   "venue": "ESSA 2024 in conjunction with IPDPS 2024",
   "type": "Workshop",
   "date": "2024",
-  "tags": ["Tensor", "Storage", ],
+  "tags": ["Tensor", "Storage", "Sparse Data"],
   "links": {"preprint": "https://sbyna.github.io/research/papers/2024/202405-ESSA-art-of-sparsity.pdf"}
 },
 {
@@ -383,7 +383,7 @@ const publications: Publication[] = [
   venue: "The 2023 IEEE International Conference on Big Data (BigData'23), 2023",
   type: "Conference",
   date: "2023",
-  tags: [],
+  tags: ["PDC"],
   links: {
     preprint: "https://sbyna.github.io/research/papers/2023/202312-pre-PSQS-Niu.pdf"
 
@@ -414,7 +414,7 @@ const publications: Publication[] = [
   venue: "ACM Computing Surveys 2023",
   type: "Journal",
   date: "2023",
-  tags: [],
+  tags: ["PDC", "I/O Performance"],
   links: {
     acm: "https://dl.acm.org/doi/10.1145/3611007",
     pdf: "https://sbyna.github.io/research/papers/2023/2023-IOpatterns-360-degree.pdf"
@@ -434,7 +434,7 @@ const publications: Publication[] = [
   venue: "",
   type: "Technical Report",
   date: "2023",
-  tags: [],
+  tags: ["PDC", "Data Management" ],
   links: {
     osti: "https://www.osti.gov/biblio/1845707/",
     pdf: "https://www.osti.gov/servlets/purl/1845707"
@@ -452,7 +452,7 @@ const publications: Publication[] = [
   "venue": "Journal of Big Data",
   "type": "Journal",
   "date": "2023",
-  "tags": [],
+  "tags": ["PDC", "I/O Performance"],
   "links": {
       "doi": "https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00741-4"
   }
@@ -467,7 +467,7 @@ const publications: Publication[] = [
   "venue": "The 32nd ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)",
   "type": "Conference",
   "date": "2023",
-  "tags": [],
+  "tags": ["PDC", "I/O Tuning"],
   "links": {
       "preprint":"https://sbyna.github.io/research/papers/2023/2023-06-HPDC-IODiagnosis-Paper.pdf"
   }
@@ -484,7 +484,7 @@ const publications: Publication[] = [
   "venue": "37th IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
   "type": "Conference",
   "date": "2023",
-  "tags": [],
+  "tags": ["PDC", "Asynchronous I/O"],
   "links": {
     "preprint": "https://sbyna.github.io/research/papers/2023/202305-IPDPS-Async-Eval-Paper.pdf"
   }
@@ -500,7 +500,7 @@ const publications: Publication[] = [
   "venue": "ISC HPC",
   "type": "Conference",
   "date": "2023",
-  "tags": [],
+  "tags": ["PDC", "I/O Optimization"],
   "links": {
     "preprint": "https://sbyna.github.io/research/papers/2023/2023-05-Illuminating-IO-Optimization-ISC-paper.pdf"
   }
@@ -515,7 +515,7 @@ const publications: Publication[] = [
   "venue": "The 23rd IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)",
   "type": "Conference",
   "date": "2023",
-  "tags": [],
+  "tags": ["PDC", "Data Compression" ],
   "links": {
     "preprint": "https://sbyna.github.io/research/papers/2023/202305-CCGrid-Runway.pdf"
   }
@@ -532,7 +532,7 @@ const publications: Publication[] = [
   "venue": "4th Workshop on Extreme-Scale Storage and Analysis (ESSA)",
   "type": "Workshop",
   "date": "2023",
-  "tags": [],
+  "tags": ["Asynchronous I/O"],
   "links": {}
 },
 {
@@ -541,7 +541,7 @@ const publications: Publication[] = [
   "venue": "PDSW (in conjunction with SC22)",
   "type": "Conference",
   "date": "2022",
-  "tags": [],
+  "tags": ["I/O Optimization"],
   "links": {}
 },
 {
@@ -550,7 +550,7 @@ const publications: Publication[] = [
   "venue": "PDSW (in conjunction with SC22)",
   "type": "Conference",
   "date": "2022",
-  "tags": [],
+  "tags": ["Asynchronous I/O"],
   "links": {}
 },
 {
@@ -559,7 +559,7 @@ const publications: Publication[] = [
   "venue": "SC22",
   "type": "Conference",
   "date": "2022",
-  "tags": [],
+  "tags": ["Compression", "HDF5"],
   "links": {
     "preprint": "https://eecs.wsu.edu/~dtao/paper/SC22-HDF5SZ.pdf"
   }
@@ -570,7 +570,7 @@ const publications: Publication[] = [
   "venue": "IEEE HPEC",
   "type": "Conference",
   "date": "2022",
-  "tags": [],
+  "tags": ["PDC", "Metadata Management"],
   "links": {
     "preprint": "https://discl.cs.ttu.edu/lib/exe/fetch.php?media=wiki:papers:niu_hpec_2022.pdf"
   }
@@ -581,7 +581,7 @@ const publications: Publication[] = [
   "venue": "HPDC",
   "type": "Conference",
   "date": "2022",
-  "tags": [],
+  "tags": ["PDC", "Metadata Management", "Provenance"],
   "links": {
     "pdf": "https://sdm.lbl.gov/~sbyna/research/papers/2022/2022-HPDC-Han-Prov-IO.pdf"
   }
@@ -614,7 +614,7 @@ const publications: Publication[] = [
   "venue": "Cluster Computing",
   "type": "Journal",
   "date": "2022",
-  "tags": [],
+  "tags": ["PDC", "I/O Tuning"],
   "links": {
     "doi": "https://doi.org/10.1007/s10586-022-03640-0"
   }
@@ -625,7 +625,7 @@ const publications: Publication[] = [
   "venue": "Fifth International Workshop on Systems and Network Telemetry and Analytics (SNTA)",
   "type": "Keynote",
   "date": "2022",
-  "tags": [],
+  "tags": ["I/O Performance"],
   "links": {
     "doi":"https://doi.org/10.1145/3526064.3534114"
   }
@@ -636,7 +636,7 @@ const publications: Publication[] = [
   "venue": "12th Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures (FlexScience)",
   "type": "Keynote",
   "date": "2022",
-  "tags": [],
+  "tags": ["PDC", "Data Management"],
   "links": {
     "slides": "https://sdm.lbl.gov/~sbyna/research/papers/2022/20220701-Suren-Byna-FlexScience-Keynote.pdf"
   }
@@ -647,7 +647,7 @@ const publications: Publication[] = [
   "venue": "IEEE GRSS RSDM-GeoSci",
   "type": "Workshop",
   "date": "2022",
-  "tags": [],
+  "tags": ["PDC", "Tensor"],
   "links": {}
 },
 {
@@ -656,7 +656,7 @@ const publications: Publication[] = [
   "venue": "CCGrid",
   "type": "Conference",
   "date": "2022",
-  "tags": [],
+  "tags": ["HDF5"],
   "links": {
     "pdf": "https://sdm.lbl.gov/~sbyna/research/papers/2022/2022-CCGrid-Cache_VOL.pdf"
   }
@@ -667,7 +667,7 @@ const publications: Publication[] = [
   "venue": "Snowmass 2021 Proceedings",
   "type": "Conference",
   "date": "2022",
-  "tags": [],
+  "tags": ["HDF5" ],
   "links": {
     "pdf": "https://arxiv.org/pdf/2203.07885.pdf"
   }
@@ -678,7 +678,7 @@ const publications: Publication[] = [
   "venue": "DOE ASCR Workshop",
   "type": "Technical Report",
   "date": "2022",
-  "tags": [],
+  "tags": ["PDC", "Data Management"],
   "links": {
     "pdf":"https://www.osti.gov/servlets/purl/1845705"
   }
@@ -698,7 +698,7 @@ const publications: Publication[] = [
   "venue": "FAST",
   "type": "Poster",
   "date": "2022",
-  "tags": [],
+  "tags": ["PDC", "Provenance", "Metadata Management"],
   "links": {
     "poster": "https://sdm.lbl.gov/~sbyna/research/papers/2022/2022-FAST-WIP-Posters-ProvIO-Poster.pdf"
   }
@@ -709,7 +709,7 @@ const publications: Publication[] = [
   "venue": "DOE ASCR Workshop",
   "type": "Technical Report",
   "date": "2022",
-  "tags": [],
+  "tags": ["PDC", "Data Management" ],
   "links": {
     "pdf":"https://www.osti.gov/servlets/purl/1843500"
   }
@@ -720,7 +720,7 @@ const publications: Publication[] = [
   "venue": "IEEE BigData",
   "type": "Conference",
   "date": "2021",
-  "tags": [],
+  "tags": ["HDF5"],
   "links": {}
 },
 {
@@ -729,7 +729,7 @@ const publications: Publication[] = [
   "venue": "HiPC",
   "type": "Conference",
   "date": "2021",
-  "tags": [],
+  "tags": ["PDC"],
   "links": {}
 },
 {
@@ -738,7 +738,7 @@ const publications: Publication[] = [
   "venue": "SC",
   "type": "Conference",
   "date": "2021",
-  "tags": [],
+  "tags": ["HPC"],
   "links": {}
 },
 {
@@ -747,7 +747,7 @@ const publications: Publication[] = [
   "venue": "PDSW (in conjunction with SC21)",
   "type": "Conference",
   "date": "2021",
-  "tags": [],
+  "tags": ["HDF5", "I/O Tuning"],
   "links": {}
 },
 {
@@ -756,7 +756,7 @@ const publications: Publication[] = [
   "venue": "PDSW (in conjunction with SC21)",
   "type": "Conference",
   "date": "2021",
-  "tags": [],
+  "tags": ["PDC"],
   "links": {}
 },
 {
@@ -765,7 +765,7 @@ const publications: Publication[] = [
   "venue": "PDSW (in conjunction with SC21)",
   "type": "Conference",
   "date": "2021",
-  "tags": [],
+  "tags": ["I/O tuning"],
   "links": {}
 },
 {
@@ -810,7 +810,7 @@ const publications: Publication[] = [
   "venue": "IEEE TPDS",
   "type": "Journal",
   "date": "2021",
-  "tags": [],
+  "tags": ["HDF5", "Asynchronous I/O"],
   "links": {}
 },
 {
@@ -819,7 +819,7 @@ const publications: Publication[] = [
   "venue": "CCGrid",
   "type": "Conference",
   "date": "2021",
-  "tags": [],
+  "tags": ["HDF5", "I/O Tuning"],
   "links": {}
 },
 {
@@ -828,7 +828,7 @@ const publications: Publication[] = [
   "venue": "PDSW (in conjunction with SC20)",
   "type": "Conference",
   "date": "2020",
-  "tags": [],
+  "tags": ["HDF5", "I/O Performance"],
   "links": {}
 },
 {
