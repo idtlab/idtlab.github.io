@@ -1302,17 +1302,6 @@ const publications: Publication[] = [
   }
 },
 {
-  "authors": ["F. Tessier", "V. Vishwanath", "E. Jeannot"],
-  "title": "TAPIOCA: An I/O library for optimized topology-aware data aggregation on large-scale supercomputers",
-  "venue": "The IEEE Cluster Conference",
-  "type": "Conference",
-  "date": "2017",
-  "tags": ["PDC", "Data Aggregation"],
-  "links": {
-    "paper": "http://www.francoistessier.info/documents/CLUSTER17.pdf"
-  }
-},
-{
   "authors": ["B. Dong", "K. Wu", "S. Byna", "J. Liu", "W. Zhao", "F. Rusu"],
   "title": "ArrayUDF: User-Defined Scientific Data Analysis on Arrays",
   "venue": "HPDC",
@@ -1360,18 +1349,6 @@ const publications: Publication[] = [
   "tags": ["PDC", "Hierarchical Storage"],
   "links": {
     "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201612_DataElevator_HiPC2016_Bin_Byna.pdf"
-  }
-},
-{
-  "authors": ["F. Tessier", "P. Malakar", "V. Vishwanath", "E. Jeannot", "F. Asaila"],
-  "title": "Topology-Aware Data Aggregation for Intensive I/O on Large-Scale Supercomputers",
-  "venue": "1st Workshop on Optimization of Communication in HPC runtime systems (IEEE COM-HPC16)",
-  "type": "Workshop",
-  "date": "2016",
-  "tags": ["PDC", "Data Aggregation"],
-  "links": {
-    "pre-print paper": "http://www.francoistessier.info/documents/COM-HPC16-IO.pdf",
-    "slides": "http://www.francoistessier.info/documents/COM-HPC16-IO_talk.pdf"
   }
 },
 {
