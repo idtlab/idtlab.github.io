@@ -864,8 +864,10 @@ const publications: Publication[] = [
   "venue": "Concurrency and Computation: Practice and Experience",
   "type": "Journal",
   "date": "2020",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC"],
+  "links": {
+    "doi": "https://doi.org/10.1002/cpe.5715"
+  }
 },
 {
   "authors": ["B. Xie", "H. Tang", "S. Byna", "Q. Koziol", "S. Oral"],
@@ -882,8 +884,10 @@ const publications: Publication[] = [
   "venue": "HPBDC (in conjunction with IPDPS 2020)",
   "type": "Conference",
   "date": "2020",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/2020-HPBDC-IPDPS-Parallel_Query_PDC.pdf"
+  }
 },
 {
   "authors": ["D. Kang", "O. Rübel", "S. Byna", "S. Blanas"],
@@ -927,8 +931,10 @@ const publications: Publication[] = [
   "venue": "FAST",
   "type": "Conference",
   "date": "2020",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC"],
+  "links": {
+    "webpage": "https://www.usenix.org/conference/fast20/presentation/patel-hpc-systems"
+  }
 },
 {
   "authors": ["S. Byna", "M. S. Breitenfeld", "B. Dong", "Q. Koziol", "E. Pourmal", "D. Robinson", "J. Soumagne", "H. Tang", "V. Vishwanath", "R. Warren"],
@@ -936,8 +942,10 @@ const publications: Publication[] = [
   "venue": "Journal of Computer Science and Technology",
   "type": "Journal",
   "date": "2020",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Parallel I/O"],
+  "links": {
+    "paper": "http://jcst.ict.ac.cn/EN/10.1007/s11390-020-9822-9"
+  }
 },
 {
   "authors": ["W. Zhang", "S. Byna", "C. Niu", "Y. Chen"],
@@ -954,8 +962,10 @@ const publications: Publication[] = [
   "venue": "HiPC",
   "type": "Conference",
   "date": "2019",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "I/O Stack Tuning"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/~sbyna/research/papers/2019/201912-Tuning_Object_centric_Applications-HiPC_2019-DOI.pdf"
+  }
 },
 {
   "authors": ["R. Warren", "J. Soumagne", "J. Mu", "H. Tang", "S. Byna", "B. Dong", "Q. Koziol"],
@@ -963,8 +973,10 @@ const publications: Publication[] = [
   "venue": "HiPC",
   "type": "Conference",
   "date": "2019",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "In-Transit Computing"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/~sbyna/research/papers/2019/201912-Analysis_in_the_Data_Path-HiPC_2019-DOI.pdf"
+  }
 },
 {
   "authors": ["H. Tang", "Q. Koziol", "S. Byna", "J. Mainzer", "T. Li"],
@@ -972,8 +984,21 @@ const publications: Publication[] = [
   "venue": "PDSW (in conjunction with SC19)",
   "type": "Conference",
   "date": "2019",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Asynchronous I/O"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/~sbyna/research/papers/2019/201911-Async-IO_PDSW-2019-DOI.pdf"
+  }
+},
+{
+  "authors": ["M. Agarwal", "D. Singhvi", "P. Malakar", "S. Byna"],
+  "title": "Enabling Transparent Asynchronous I/O using Background Threads",
+  "venue": "Cray User Group (CUG)",
+  "type": "Conference",
+  "date": "2019",
+  "tags": ["PDC", "Asynchronous I/O"],
+  "links": {
+    "slides": "https://sdm.lbl.gov/~sbyna/research/papers/2019/201905-CUG-PDC-VOL.pdf"
+  }
 },
 {
   "authors": ["G. K. Lockwood", "S. Snyder", "S. Byna", "P. Carns", "N. J. Wright"],
@@ -1071,8 +1096,10 @@ const publications: Publication[] = [
   "venue": "Cray User Group (CUG)",
   "type": "Conference",
   "date": "2019",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC"],
+  "links": {
+    "slides": "https://cug.org/proceedings/cug2019_proceedings/includes/files/pap110s2-file2.pdf"
+  }
 },
 {
   "authors": ["T. Li", "Q. Koziol", "H. Tang", "J. Liu", "S. Byna"],
@@ -1089,7 +1116,7 @@ const publications: Publication[] = [
   "venue": "ACM Transactions on Parallel Computing (TOPC)",
   "type": "Journal",
   "date": "2019",
-  "tags": [],
+  "tags": ["PDC", "I/O Stack Tuning"],
   "links": {
     "doi": "10.1145/3309205"
   }
@@ -1111,8 +1138,10 @@ const publications: Publication[] = [
   "venue": "ICDE",
   "type": "Conference",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201804_ICDE2018-ArrayBridge.pdf"
+  }
 },
 {
   "authors": ["B. Dong", "T. Wang", "H. Tang", "Q. Koziol", "K. Wu", "S. Byna"],
@@ -1120,8 +1149,10 @@ const publications: Publication[] = [
   "venue": "IEEE BigData",
   "type": "Conference",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Cache System"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201812-BigData-ARCHIE.pdf"
+  }
 },
 {
   "authors": ["J. S. Vetter", "R. Brightwell", "M. Gokhale", "P. McCormick", "R. Ross", "J. Shalf", "K. Antypas", "D. Donofrio", "A. Dubey", "T. Humble", "C. Schuman", "B. Van Essen", "S. Yoo", "A. Aiken", "D. Bernholdt", "S. Byna", "K. Cameron", "F. Cappello", "B. Chapman", "A. Chien", "M. Hall", "R. Hartman-Baker", "Z. Lan", "M. Lang", "J. Leidel", "S. Li", "R. Lucas", "J. Mellor-Crummey", "P. Peltz Jr.", "T. Peterka", "M. Strout", "J. Wilke"],
@@ -1140,8 +1171,11 @@ const publications: Publication[] = [
   "venue": "AGU Fall Meeting",
   "type": "Presentation",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC"],
+  "links": {
+    "session": "https://agu.confex.com/agu/fm18/prelim.cgi/Paper/360134",
+    "slides": "https://sdm.lbl.gov/pdc/pubs/201812_AGU_PDCs_Byna.pdf"
+  }
 },
 {
   "authors": ["W. Zhang", "H. Tang", "S. Byna", "Y. Cheng"],
@@ -1149,8 +1183,10 @@ const publications: Publication[] = [
   "venue": "PACT",
   "type": "Conference",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Metadata Indexing"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201811_PACT_final_DART_Wei.pdf"
+  }
 },
 {
   "authors": ["J. Liu", "Q. Koziol", "G. Butler", "N. Fortner", "M. Chaarawi", "H. Tang", "S. Byna", "G. Lockwood", "R. Cheema", "K. Kallback-Rose", "D. Hazen", "Prabhat"],
@@ -1158,8 +1194,10 @@ const publications: Publication[] = [
   "venue": "PDSW-DISCS (in conjunction with SC18)",
   "type": "Workshop",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC","Performance Evaluation"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201811_PDSW2018-ObjEval.pdf"
+  }
 },
 {
   "authors": ["F. Chowdhury", "J. Liu", "Q. Koziol", "T. Kurth", "S. Farrell", "S. Byna", "Prabhat", "W. Yu"],
@@ -1167,8 +1205,10 @@ const publications: Publication[] = [
   "venue": "PDSW-DISCS (in conjunction with SC18)",
   "type": "WIP",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Characterization"],
+  "links": {
+    "pre-print paper": "http://www.pdsw.org/pdsw-discs18/wips/abstracts/chowdhury-wip-pdsw-discs18.pdf"
+  }
 },
 {
   "authors": ["T. Li", "Q. Koziol", "H. Tang", "S. Byna"],
@@ -1185,8 +1225,10 @@ const publications: Publication[] = [
   "venue": "IEEE Cluster",
   "type": "Conference",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201809_Cluster2018-UniviStor.pdf"
+  }
 },
 {
   "authors": ["T. Wang", "S. Byna", "G. Lockwood", "N. Wright", "P. Carns", "S. Snyder"],
@@ -1203,8 +1245,10 @@ const publications: Publication[] = [
   "venue": "IEEE Cluster",
   "type": "Conference",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201809_Cluster2018-PDCBufMap.pdf"
+  }
 },
 {
   "authors": ["G. Lockwood", "S. Snyder", "T. Wang", "S. Byna", "P. Carns", "N. Wright"],
@@ -1221,8 +1265,10 @@ const publications: Publication[] = [
   "venue": "CCGrid",
   "type": "Conference",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Asynchronous I/O"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201805_CCGrid2018_PDCsys.pdf"
+  }
 },
 {
   "authors": ["B. Wadhwa", "S. Byna", "A. R. Butt"],
@@ -1230,8 +1276,10 @@ const publications: Publication[] = [
   "venue": "IC2E",
   "type": "Conference",
   "date": "2018",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Hierarchical Storage"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201804_IC2E2018_multilayer.pdf"
+  }
 },
 {
   "authors": ["G. Lockwood", "S. Snyder", "W. Yoo", "K. Harms", "Z. Nault", "S. Byna", "P. Carns", "N. Wright"],
@@ -1248,8 +1296,21 @@ const publications: Publication[] = [
   "venue": "IEEE Cluster",
   "type": "Conference",
   "date": "2017",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Metadata Management", "Metadata Indexing"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201709_SoMeta_Cluster_Tang_Byna.pdf"
+  }
+},
+{
+  "authors": ["F. Tessier", "V. Vishwanath", "E. Jeannot"],
+  "title": "TAPIOCA: An I/O library for optimized topology-aware data aggregation on large-scale supercomputers",
+  "venue": "The IEEE Cluster Conference",
+  "type": "Conference",
+  "date": "2017",
+  "tags": ["PDC", "Data Aggregation"],
+  "links": {
+    "paper": "http://www.francoistessier.info/documents/CLUSTER17.pdf"
+  }
 },
 {
   "authors": ["B. Dong", "K. Wu", "S. Byna", "J. Liu", "W. Zhao", "F. Rusu"],
@@ -1275,8 +1336,11 @@ const publications: Publication[] = [
   "venue": "Cray User Group Conference (CUG)",
   "type": "Conference",
   "date": "2017",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Performance Evaluation"],
+  "links": {
+    "pre-print paper": "https://cug.org/proceedings/cug2017_proceedings/includes/files/pap154s2-file1.pdf",
+    "slides": "https://cug.org/proceedings/cug2017_proceedings/includes/files/pap154s2-file2.pdf"
+  }
 },
 {
   "authors": ["C. Xu", "S. Snyder", "O. Kulkarni", "V. Venkatesan", "P. Carns", "S. Byna", "R. Sisneros", "K. Chadalavada"],
@@ -1293,8 +1357,22 @@ const publications: Publication[] = [
   "venue": "HiPC",
   "type": "Conference",
   "date": "2016",
-  "tags": [],
-  "links": {}
+  "tags": ["PDC", "Hierarchical Storage"],
+  "links": {
+    "pre-print paper": "https://sdm.lbl.gov/pdc/pubs/201612_DataElevator_HiPC2016_Bin_Byna.pdf"
+  }
+},
+{
+  "authors": ["F. Tessier", "P. Malakar", "V. Vishwanath", "E. Jeannot", "F. Asaila"],
+  "title": "Topology-Aware Data Aggregation for Intensive I/O on Large-Scale Supercomputers",
+  "venue": "1st Workshop on Optimization of Communication in HPC runtime systems (IEEE COM-HPC16)",
+  "type": "Workshop",
+  "date": "2016",
+  "tags": ["PDC", "Data Aggregation"],
+  "links": {
+    "pre-print paper": "http://www.francoistessier.info/documents/COM-HPC16-IO.pdf",
+    "slides": "http://www.francoistessier.info/documents/COM-HPC16-IO_talk.pdf"
+  }
 },
 {
   "authors": ["W. Zhang", "H. Tang", "S. Ranshous", "S. Byna", "D.F. Martin", "K. Wu", "B. Dong", "S. Klasky", "N.F. Samatova"],
