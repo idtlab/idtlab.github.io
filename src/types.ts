@@ -35,7 +35,7 @@ export type Member = {
   name: string;
   researchInterests?: string[];
   title: string;
-  type: "researcher" | "engineer" | "visiting" | "external";
+  type: "researcher" | "engineer" | "visiting" | "external" | "previous";
 };
 
 export type ProjectId =

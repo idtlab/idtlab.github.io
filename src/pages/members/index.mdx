@@ -15,10 +15,12 @@ import members from "@site/src/data/members";
 
 ## Students
 
-<MemberList data={members.filter((member) => member.type === "researcher")} />
-
+<MemberList data={members.filter((member) => member.type === "researcher").sort((a, b) => a.lastName.localeCompare(b.lastName))} />
 ## External Collaborators
 
-<MemberList data={members.filter((member) => member.type === "external")} />
+<MemberList data={members.filter((member) => member.type === "external").sort((a, b) => a.lastName.localeCompare(b.lastName))} />
 
+## Previous Members and Collaborators
+
+<MemberList data={members.filter((member) => member.type === "previous")} />
 
