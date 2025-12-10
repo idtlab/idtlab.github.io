@@ -2,20 +2,8 @@ import { Project, ProjectId } from "../types";
 
 const projects: Project[] = [
   
-  {
-    id: "aidrin",
-    name: "AIDRIN",
-    title: "AI Data Readiness Inpector",
-    shortDescription:
-      "AIDRIN is a framework designed accross centralized and decentralized (eg: federated learning) workflows to assess the readiness of data for AI applications, ensuring that datasets meet quality and compliance standards.",
-    link: "/research/projects/aidrin",
-    isFeatured: true,
-    isOurs: true,
-    researchStatus: "r&d",
-    sourceLink: "https://github.com/idtlab/aidrin",
-    status: "active",
-    type: "funded",
-  },
+  
+  
   {
     id: "pdc",
     name: "PDC",
@@ -31,6 +19,33 @@ const projects: Project[] = [
     type: "funded",
   },
   {
+    id: "aidrin",
+    name: "AIDRIN",
+    title: "AI Data Readiness Inspector",
+    shortDescription:
+      "AIDRIN is a framework designed accross centralized and decentralized (eg: federated learning) workflows to assess the readiness of data for AI applications, ensuring that datasets meet quality and compliance standards.",
+    link: "/research/projects/aidrin",
+    isFeatured: true,
+    isOurs: true,
+    researchStatus: "r&d",
+    sourceLink: "https://github.com/idtlab/aidrin",
+    status: "active",
+    type: "funded",
+  },
+  {
+    id: "sagest",
+    name: "SAGEST",
+    title: "SAGEST Center",
+    shortDescription:"Developing a trustworthy predictive system that utilizes embedded near-ab-initio simulations to make predictions with quantified uncertainty in extreme regimes where physical experimental validation is unavailable.",
+    link: "https://sagest.virginia.edu/",
+    isFeatured: false,
+    isOurs: false,
+    researchStatus: "r&d",
+    status: "active",
+    type: "funded",
+
+  },
+  {
     id: "h5bench",
     name: "h5bench",
     title: "h5bench: a Parallel I/O Benchmark Suite for HDF5",
@@ -39,20 +54,6 @@ const projects: Project[] = [
     link: "https://h5bench.readthedocs.io/en/latest/",
     sourceLink: "https://github.com/hpc-io/h5bench",
     isFeatured: false,
-    isOurs: true,
-    researchStatus: "r&d",
-    status: "active",
-    type: "funded",
-  },
-  {
-    id:"drishti",
-    name: "Drishti",
-    title: "Drishti: I/O Insights for All",
-    shortDescription:
-      "Dristhi is a novel interactive web-based analysis framework to visualize I/O traces, highlight bottlenecks, and help understand the I/O behavior of scientific applications.",
-    link: "https://drishti-io.readthedocs.io/en/latest/",
-    sourceLink: "https://github.com/hpc-io/drishti",
-    isFeatured: true,
     isOurs: true,
     researchStatus: "r&d",
     status: "active",
@@ -91,8 +92,22 @@ const projects: Project[] = [
     title: "StoreHub: A Community Infrastructure for Shaping the Future of Data Storage Research",
     shortDescription:
       "This project focuses on planning activities associated with the realization of the StoreHub research infrastructure, which aims to support next-generation data storage research. The infrastructure is envisioned to provide a secure, flexible, and collaborative platform for researchers to design, test, and improve data storage technologies.",
-    link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2346505",
+    link: "https://grc.iit.edu/research/projects/storehub/",
     isFeatured: false,
+    isOurs: false,
+    researchStatus: "r&d",
+    status: "active",
+    type: "funded",
+  },
+  {
+    id:"drishti",
+    name: "Drishti",
+    title: "Drishti: I/O Insights for All",
+    shortDescription:
+      "Dristhi is a novel interactive web-based analysis framework to visualize I/O traces, highlight bottlenecks, and help understand the I/O behavior of scientific applications.",
+    link: "https://drishti-io.readthedocs.io/en/latest/",
+    sourceLink: "https://github.com/hpc-io/drishti",
+    isFeatured: true,
     isOurs: true,
     researchStatus: "r&d",
     status: "active",
@@ -111,7 +126,8 @@ const projects: Project[] = [
     researchStatus: "r&d",
     status: "active",
     type: "funded",
-  }
+  },
+  
 
 
 
