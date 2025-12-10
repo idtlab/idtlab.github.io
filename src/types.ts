@@ -47,6 +47,7 @@ export type ProjectId =
   | "fadas"
   | "storehub"
   | "fastensor"
+  | "sagest";
 
 export type Project = {
   id: ProjectId;
