@@ -1,0 +1,39 @@
+---
+title: "S2-D2: Securing Self-Describing Data, Formats, and Libraries"
+---
+
+import ProjectBadges from "@site/src/components/projects/ProjectBadges";
+import ProjectPublications from "@site/src/components/projects/ProjectPublications";
+
+# S2-D2: Securing Self-Describing Data, Formats, and Libraries
+
+<ProjectBadges projectId="s2d2" />
+
+**S2-D2 (<u>S</u>ecuring <u>S</u>elf-<u>D</u>escribing <u>D</u>ata)** is a collaborative project aiming to address all aspects of security for self describing data formats and libraries. We aim to hollistically analyze where the gaps in security research are, and fill those gaps with usable projects that can be built on, and actionable solutions that can be implemented.
+
+---
+
+## Overview
+
+Data within research is often complex, with different domains requiring different storage formats, and different metadata. To serve the needs of various researchers, "self-describing" data management libraries such as HDF5 and NetCDF were developed, which utilize rich metadata to generate intricate self contained files with high performance. However, due to the age of these data management libraries (DMLs), proper security analysis is lacking. S2-D2 seeks to integrate current security practices into the libraries, as well as the ecosystems that surround them.
+
+The key focuses of the research are as follows:
+
+1. Assessing and fixing vulnerabilities within the file formats to prevent attacks through the files.
+2. Protecting data accesses by the DMLs to prevent data leakage or other attacks through the libraries.
+3. Exploring security methods, such as encryption, for DMLs.
+4. Developing a security framework to allow DML developers and users to understand the security of their platforms.
+
+Currently, we've developed a basic threat modeling technique for DMLs called CASSE, which aims to directly target the vulnerabilities present in DMLs, allowing developers to easily analyze the security of their systems. In addition, we explored processes for securing plugins in the HDF5 library using digital signatures. See the publications below for further details.
+
+---
+
+## Publications
+
+<ProjectPublications projectId="s2d2"/>
+
+---
+
+## Contact
+
+Feel free to reach out to relevant researchers at the lab, [Keegan Sanchez](/members/keegan-sanchez) or [Dr. Suren Byna](/members).

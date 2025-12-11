@@ -625,6 +625,7 @@ export type PublicationTag =
   | "Resource Management"
   | "Resource Monitoring"
   | "Resource Provisioning"
+  | "S2D2"
   | "Scalability"
   | "Scalable Computing"
   | "Scientific Applications"
