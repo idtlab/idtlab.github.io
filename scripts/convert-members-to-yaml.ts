@@ -56,7 +56,7 @@ const allMembers = getMembersArray();
 
 // Filter members with type = "researcher"
 const members = allMembers.filter(
-  (member) => member.type === "researcher" || member.type === "engineer"
+  (member) => member.type === "researcher" || member.type === "engineer" || member.type === "staff-researcher"
 );
 
 console.log(

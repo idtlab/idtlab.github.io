@@ -35,7 +35,8 @@ export type Member = {
   name: string;
   researchInterests?: string[];
   title: string;
-  type: "researcher" | "engineer" | "visiting" | "external" | "previous";
+  type: "researcher" | "engineer" | "visiting" | "external" | "previous" | "staff-researcher";
+  currentAffiliation?: string;
 };
 
 export type ProjectId =
@@ -425,6 +426,7 @@ export type PublicationAuthor =
   |"R. Nakhoul"
   |"K. Velusamy"
   |"J. Doe"
+  |"R. Islam"
   ;
 
 export type PublicationTag =

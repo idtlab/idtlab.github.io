@@ -4,19 +4,13 @@ import { Member } from "@site/src/types";
 
 import styles from "./MemberItem.module.css";
 
-// Function to create a slug from a name, removing title prefixes and converting to kebab-case
 function slugify(text: string): string {
-  // Remove common title prefixes (Dr., Mr., Ms., Mrs., etc.)
-  const nameWithoutTitle = text.replace(
-    /^(Dr\.|Mr\.|Ms\.|Mrs\.|Prof\.)\s+/i,
-    ""
-  );
-
+  const nameWithoutTitle = text.replace(/^(Dr\.|Mr\.|Ms\.|Mrs\.|Prof\.)\s+/i, "");
   return nameWithoutTitle
     .toLowerCase()
-    .replace(/[^\w\s-]/g, "") // Remove non-word chars except spaces and hyphens
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
-    .replace(/--+/g, "-"); // Replace multiple hyphens with single hyphen
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/--+/g, "-");
 }
 
 type MemberItemProps = {
@@ -24,28 +18,65 @@ type MemberItemProps = {
 };
 
 export default function MemberItem({ member }: MemberItemProps) {
+  const isInternal =
+    member.type === "researcher" ||
+    member.type === "engineer" ||
+    member.type === "staff-researcher";
+
+  const isExternalOrPrevious = member.type === "external" || member.type === "previous";
+
+  const nameHref = isInternal
+    ? `/members/${slugify(member.name)}`
+    : isExternalOrPrevious
+      ? member.links?.website
+      : undefined;
+
+  const Name = () => {
+    if (!nameHref) {
+      return (
+        <div className={clsx("text--bold text--center", styles.name)}>
+          {member.name}
+        </div>
+      );
+    }
+
+    const isExternalUrl = /^https?:\/\//i.test(nameHref);
+
+    return (
+      <a
+        className={clsx("text--bold text--center", styles.name)}
+        href={nameHref}
+        {...(isExternalUrl ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+      >
+        {member.name}
+      </a>
+    );
+  };
+
+  const showNowLine =
+    member.type === "previous" && Boolean(member.currentAffiliation);
+
   return (
     <div className="col col--4 padding-bottom--lg">
       <div className={styles.innerContainer}>
         <div className="padding-top--lg text--center">
           <img alt={member.name} className={styles.image} src={member.image} />
         </div>
-        {member.type === "researcher" || member.type === "engineer" ? (
-          <a
-            className={clsx("text--bold text--center", styles.name)}
-            href={`/members/${slugify(member.name)}`}
-          >
-            {member.name}
-          </a>
-        ) : (
-          <div className={clsx("text--bold text--center", styles.name)}>
-            {member.name}
-          </div>
-        )}
+
+        <Name />
+
         <div className="text--center">{member.title}</div>
         {member.affiliation && (
           <div className="text--center">{member.affiliation}</div>
         )}
+
+        {showNowLine && (
+          <div className={clsx("text--center", styles.nowLine)}>
+            <span className={styles.nowLabel}>Currently at:</span>{" "}
+            <span className={styles.nowText}>{member.currentAffiliation}</span>
+          </div>
+        )}
+
         <div className="padding-bottom--lg" />
       </div>
     </div>

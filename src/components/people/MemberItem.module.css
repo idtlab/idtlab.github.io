@@ -22,3 +22,20 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.nowLine {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.nowLabel {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.nowText {
+  font-weight: 400;
+}
+
+
