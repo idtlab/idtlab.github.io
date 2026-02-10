@@ -1,6 +1,35 @@
 import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
+{
+    "authors":[
+        "G. Song",
+        "S. Breitenfeld",
+        "S. Byna"
+    ],
+    "title": "Securing HDF5 Plugins with Digital Signatures",
+    "venue": "S-HPC 25",
+    "type": "Workshop",
+    "date": "November, 2025",
+    "tags": ["S2-D2", "HDF5"],
+    "links": {
+    }
+},
+{
+    "authors":[
+        "K. Sanchez",
+        "S. Byna",
+        "Z. Lin",
+        "D. Mattson"
+    ],
+    "title": "CASSE: Targeted Threat Modeling for Data Management Libraries",
+    "venue": "S-HPC 25",
+    "type": "Workshop",
+    "date": "November, 2025",
+    "tags": ["S2-D2", "HDF5"],
+    "links": {
+    }
+},
   {
   "authors":[
     "K. Hiniduma",

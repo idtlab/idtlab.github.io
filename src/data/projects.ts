@@ -65,7 +65,7 @@ const projects: Project[] = [
     title: "S2-D2: Securing Self-describing Data, Formats, and Libraries",
     shortDescription:
       "This project will apply comprehensive testing, evaluation, issue identification, hardening, and validation to correct security deficiencies in self-describing file formats and libraries. The specific R&D tasks include: (1) assessing and fixing file format vulnerabilities, (2) protecting data access libraries, (3) exploring security solutions for metadata and data, and (4) constructing a security framework, called S2-D2.",
-    link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2419722",
+    link: "/research/projects/s2d2",
     // sourceLink: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2419722",
     isFeatured: true,
     isOurs: true,
