@@ -1,6 +1,24 @@
 import { Member } from "../types";
 
 export default [
+
+  {
+    name: "Dr. Raqib Islam",
+    lastName: "Islam",
+    title: "Researcher",
+    advisor: "Prof. Suren Byna",
+    image: require("@site/static/img/members/islam.jpg").default,
+    links: {
+      email: "islam.301@osu.edu",
+      linkedin: "https://www.linkedin.com/in/aa-raqibul-islam/",
+      scholar: "https://scholar.google.com/citations?hl=en&user=H8zsAR8AAAAJ&view_op=list_works&sortby=pubdate",
+      website: "https://biqar.github.io",
+      github: "https://github.com/biqar"
+    },
+    researchInterests: ["Data Management", "Data Readiness for AI"],
+    type: "staff-researcher",
+  },
+
   {
     name: "Kaveen Hiniduma",
     lastName: "Hiniduma",
@@ -45,15 +63,16 @@ export default [
   image: require("@site/static/img/members/saha.jpg").default,
   links: {
     email: "saha.167@osu.edu",
+    website:"https://subenksaha.github.io/"
 },
-type: "researcher",
+type: "previous",
 },
 {
   name: "Aparajit Talukdar",
   lastName: "Talukdar",
   title: "PhD Student",
   advisor: "Prof. Suren Byna",
-  image: require("@site/static/img/members/talukdar.jpg").default,
+  image: require("@site/static/img/members/default.jpg").default,
   links: {
     email: "talukdar.15@osu.edu",
   },
@@ -120,7 +139,10 @@ type: "researcher",
   title: "Senior Computer Scientist",
   affiliation: "Argonne National Laboratory",
   image: require("@site/static/img/members/madduri.jpg").default,
-  type:"external"
+  type:"external",
+  links: {
+    website: "https://www.anl.gov/profile/ravi-k-madduri"
+  }
 },
 {
   name:"Jean Luca Bez",
@@ -129,14 +151,20 @@ type: "researcher",
   affiliation: "Lawrence Berkeley National Laboratory",
   image: require("@site/static/img/members/bez.jpg").default,
   type: "external",
+  links:{
+    website: "https://jeanlucabez.io/"
+  }
 
 },
 {
   name: "Wei Zhang",
   title: "Postdoctoral Researcher",
-  affiliation: "Lawrence Berkeley National Laboratory",
   image: require("@site/static/img/members/zhang.jpg").default,
   type: "previous",
+  links: {
+    website: "https://tacc.utexas.edu/about/staff-directory/wei-zhang/"
+  },
+  currentAffiliation: "Texas Advanced Computing Center (TACC)"
 },
 {
   name: "Houjun Tang",
@@ -145,6 +173,9 @@ type: "researcher",
   affiliation: "Lawrence Berkeley National Laboratory",
   image: require("@site/static/img/members/tang.jpg").default,
   type: "external",
+  links: {
+    website: "https://profiles.lbl.gov/22241-houjun-tang"
+  }
 }
 
   

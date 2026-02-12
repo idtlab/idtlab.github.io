@@ -794,7 +794,7 @@ const publications: Publication[] = [
   "venue": "PDSW (in conjunction with SC21)",
   "type": "Conference",
   "date": "2021",
-  "tags": ["I/O tuning"],
+  "tags": ["I/O Tuning"],
   "links": {}
 },
 {

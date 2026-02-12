@@ -13,14 +13,19 @@ import members from "@site/src/data/members";
 
 <br />
 
+## Research Staff
+
+<MemberList data={members.filter((member) => member.type === "staff-researcher").sort((a, b) => a.lastName.localeCompare(b.lastName))} />
+
 ## Students
 
 <MemberList data={members.filter((member) => member.type === "researcher").sort((a, b) => a.lastName.localeCompare(b.lastName))} />
+
 ## External Collaborators
 
 <MemberList data={members.filter((member) => member.type === "external").sort((a, b) => a.lastName.localeCompare(b.lastName))} />
 
-## Previous Members and Collaborators
+## Previous Members
 
 <MemberList data={members.filter((member) => member.type === "previous")} />
 
