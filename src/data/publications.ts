@@ -3,6 +3,23 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 const publications: Publication[] = [
 {
     "authors":[
+        "R. Ilyas",
+        "S. Kumar",
+        "T. Gilray",
+        "K. Micinski",
+        "S. Byna"
+    ],
+    "title": "Optimizing I/O Performance of Parallel Iterated Relational Algebra Applications",
+    "venue": "CHEOPS '26",
+    "type": "Workshop",
+    "date": "April, 2026",
+    "tags": ["Relational algebra", "IO Optimization", "HDF5"],
+    "links": {
+        "pdf": "https://dl.acm.org/doi/epdf/10.1145/3805687.3806261"
+    }
+},
+{
+    "authors":[
         "G. Song",
         "S. Breitenfeld",
         "S. Byna"
