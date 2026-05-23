@@ -427,6 +427,13 @@ export type PublicationAuthor =
   |"K. Velusamy"
   |"J. Doe"
   |"R. Islam"
+  |"R. Ilyas"
+  |"S. Kumar"
+  |"T. Gilray"
+  |"K. Micinski"
+  |"G. Song"
+  |"Z. Lin"
+  |"D. Mattson"
   ;
 
 export type PublicationTag =
@@ -623,6 +630,7 @@ export type PublicationTag =
   | "RPC over RDMA"
   | "ReRAM-based Accelerator"
   | "Reinforcement Learning"
+  | "Relational Algebra"
   | "Representative"
   | "Resource Management"
   | "Resource Monitoring"

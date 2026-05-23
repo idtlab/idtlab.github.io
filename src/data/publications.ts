@@ -22,7 +22,7 @@ const publications: Publication[] = [
     "venue": "CHEOPS '26",
     "type": "Workshop",
     "date": "April, 2026",
-    "tags": ["Relational algebra", "IO Optimization", "HDF5"],
+    "tags": ["Relational Algebra", "I/O Optimization", "HDF5"],
     "links": {
         "pdf": "https://dl.acm.org/doi/epdf/10.1145/3805687.3806261"
     }
@@ -37,7 +37,7 @@ const publications: Publication[] = [
     "venue": "S-HPC 25",
     "type": "Workshop",
     "date": "November, 2025",
-    "tags": ["S2-D2", "HDF5"],
+    "tags": ["S2D2", "HDF5"],
     "links": {
     }
 },
@@ -52,7 +52,7 @@ const publications: Publication[] = [
     "venue": "S-HPC 25",
     "type": "Workshop",
     "date": "November, 2025",
-    "tags": ["S2-D2", "HDF5"],
+    "tags": ["S2D2", "HDF5"],
     "links": {
     }
 },
