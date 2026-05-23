@@ -1,6 +1,15 @@
 import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
+    {
+  "authors": ["A. Salimiparsa", "N. Lewis", "J. L. Bez"],
+  "title": "A 360◦ Survey on Reconfigurability of HPC Storage Systems for Efficient I/O",
+  "venue": "ACM Computing Surveys 2026",
+  "type": "Journal",
+  "date": "2026",
+  "tags": ["I/O", "I/O Optimization", "I/O Performance", "I/O Tuning"],
+  "links": {}
+    },
 {
     "authors":[
         "R. Ilyas",
@@ -2137,6 +2146,7 @@ const publications: Publication[] = [
   "tags": [],
   "links": {}
 }
+    
 
 
 
