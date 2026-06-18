@@ -434,6 +434,10 @@ export type PublicationAuthor =
   |"G. Song"
   |"Z. Lin"
   |"D. Mattson"
+  |"C. Weng"
+  |"D. Djebarov"
+  |"R. Liem"
+  |"S. Neuwirth"
   ;
 
 export type PublicationTag =
