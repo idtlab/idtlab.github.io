@@ -12,6 +12,19 @@ const publications: Publication[] = [
   "links": {}
     },
 {
+    "authors": [
+        "K. Sanchez", "R. Rongon", "A. Gavin", "S. Byna", "K. Wu", "X. Zhang"
+    ],
+    "title": "PMIO: Optimizing parallel collective I/O accesses through node-local persistent memory",
+    "venue": "Journal of Parallel and Distributed Computing",
+    "type": "Journal",
+    "date": "July, 2026",
+    "tags": ["I/O", "Persistent Memory"],
+    "links": {
+        "paper": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5547309"
+    }
+},
+{
     "authors":[
         "R. Ilyas",
         "S. Kumar",
