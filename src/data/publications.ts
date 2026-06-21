@@ -1,6 +1,7 @@
 import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
+
     {
   "authors": ["A. Salimiparsa", "N. Lewis", "J. L. Bez", "S. Byna"],
   "title": "A 360◦ Survey on Reconfigurability of HPC Storage Systems for Efficient I/O",
@@ -27,6 +28,58 @@ const publications: Publication[] = [
         "pdf": "https://dl.acm.org/doi/epdf/10.1145/3805687.3806261"
     }
 },
+{
+    "authors": 
+    ["J. L. Bez",
+      "H. Tang",
+      "C. Weng",
+      "S. Byna",
+    ],
+    "title": "Data Management in the Continuum: Cross-facility Object-based Data Transfers",
+    "venue": "37th IEEE/SBC International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD 2025)",
+    "type": "Conference",
+    "date": "2025",
+    "tags": ["Data Management"],
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/11264731"
+    }
+  },
+  {
+    "authors": 
+    ["D. Djebarov",
+      "R. Liem",
+      "S. Neuwirth",
+      "J. L. Bez",
+      "S. Byna",
+    ],
+    "title": "Streamlining HDF5’s AI Workloads Benchmarking",
+    "venue": "6th Workshop on Extreme-Scale Storage and Analysis, in conjunction with IEEE IPDPS 2025",
+    "type": "Workshop",
+    "date": "2025",
+    "tags": ["Benchmarking", "HDF5"],
+    "links": {
+    }
+  },
+  {
+    "authors": 
+    ["D. K. Sung",
+      "S. Kim",
+      "S. Lee",
+      "H. Tang",
+      "A. Sim",
+      "K. Wu",
+      "S. Byna",
+      "Y. Son"
+    ],
+    "title": "Regen: An object layout regenerator on large-scale production HPC systems",
+    "venue": "Future Generation Computer Systems, Volume 171",
+    "type": "Journal",
+    "date": "2025",
+    "tags": ["HPC", "Storage"],
+    "links": {
+      "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0167739X25001256"
+    }
+  },
 {
     "authors":[
         "G. Song",
