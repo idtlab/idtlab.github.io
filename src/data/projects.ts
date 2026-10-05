@@ -21,7 +21,7 @@ const projects: Project[] = [
   {
     id: "aidrin",
     name: "AIDRIN",
-    title: "AI Data Readiness Inspector",
+    title: "AI Data Readiness Infrastructure (AIDRIN)",
     shortDescription:
       "AIDRIN is a framework designed accross centralized and decentralized (eg: federated learning) workflows to assess the readiness of data for AI applications, ensuring that datasets meet quality and compliance standards.",
     link: "/research/projects/aidrin",
