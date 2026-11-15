@@ -9,7 +9,9 @@ const publications: Publication[] = [
   "type": "Journal",
   "date": "2026",
   "tags": ["I/O", "I/O Optimization", "I/O Performance", "I/O Tuning"],
-  "links": {}
+  "links": {
+      "paper":"https://dl.acm.org/doi/10.1145/3863974"
+  }
     },
 {
     "authors": [
