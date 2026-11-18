@@ -2,6 +2,32 @@ import { ProjectId, Publication, PublicationTag } from "../types";
 
 const publications: Publication[] = [
 
+{
+  "authors": [
+    "W. Brewer", "K. Maheshwari", "Q. Liu", "S. R. Wilkinson", "B. Cirou",
+    "G. Gil", "J. L. Bez", "K. Hiniduma", "S. Byna"
+  ],
+  "title": "On Preprocessing Heterogeneous HPC Telemetry for Use in Foundation Models and Digital Twins",
+  "venue": "SC26-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+  "type": "Workshop",
+  "date": "November, 2026",
+  "tags": ["AIDRIN", "DRAI", "HPC"],
+  "links": {
+    "doi": "https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00392"
+  }
+},
+{
+  "authors": [
+    "J. L. Bez", "K. Hiniduma", "A. A. R. Islam", "D. J. Vasuki", "H. Tang",
+    "B. Stanislaus", "P. Calafiura", "R. Madduri", "S. Byna"
+  ],
+  "title": "Ready at the Source: Data Readiness for AI, Measured and Fixed Where the Data Lives",
+  "venue": "Monterey Data Conference (MDC '26)",
+  "type": "Poster",
+  "date": "2026",
+  "tags": ["AIDRIN", "DRAI"],
+  "links": {}
+},
     {
   "authors": ["A. Salimiparsa", "N. Lewis", "J. L. Bez", "S. Byna"],
   "title": "A 360◦ Survey on Reconfigurability of HPC Storage Systems for Efficient I/O",
